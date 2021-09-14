@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.ReservationController.GetAllResrvations(BO.DTO.PageRequest)">
+            <summary>
+            Permert de récupérer un livre avec son identifiant unique
+            </summary>
+            <param name="id">Identifiant unique du livre</param>
+            <returns>Renvoi le livre définit par l'identifiant unique</returns>
+        </member>
+        <member name="M:API.Controllers.ReservationController.CreateReservation(BO.Entity.Reservation)">
+            <summary>
+            Créer une reservation et l'ajouter en BDD
+            </summary>
+            <param name="reservation">Livre à ajouter sans l'identifiant unique</param>
+            <returns>Renvoi le livre avec l'identifiant généré</returns>
+        </member>
+        <member name="M:API.Controllers.RestaurantControlleur.GetAll(BO.DTO.PageRequest)">
+            <summary>
+            Permet de récupérer la liste des plats
+            </summary>
+            <returns>La liste des plats</returns>
+        </member>
+        <member name="M:API.Controllers.RestaurantControlleur.GetPlatById(System.Int32)">
+            <summary>
+            Permert de récupérer un livre avec son identifiant unique
+            </summary>
+            <param name="id">Identifiant unique du livre</param>
+            <returns>Renvoi le livre définit par l'identifiant unique</returns>
+        </member>
+        <member name="M:API.Controllers.RestaurantControlleur.CreatePlat(BO.Entity.Plat)">
+            <summary>
+            Créer une Plat et l'ajouter en BDD
+            </summary>
+            <param name="plat">Livre à ajouter sans l'identifiant unique</param>
+            <returns>Renvoi le livre avec l'identifiant généré</returns>
+        </member>
+    </members>
+</doc>
